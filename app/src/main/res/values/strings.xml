@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">DaroNa</string>
+
+    <string name="what_is_covid">
+        Coronaviruses are a large family of viruses that are common in many different species of animals, including camels, cattle, cats, and bats.
+        On 12th March 2020, WHO has declared a pandemic, outbreak of respiratory disease caused by novel (new) corona virus, the virus is called “SARS-CoV-2” and the disease it causes has been named “coronavirus disease 2019” (abbreviated “COVID-19”).
+        In the past, other types of coronaviruses have caused illness such as:\n\n
+        1. SARS-associated coronavirus (SARS-CoV), first detected in Asia in February 2003. Since 2004, there have not been any known cases of SARS reported anywhere in the world.\n
+        2. Middle East Respiratory Syndrome Coronavirus (MERS-CoV), first reported in Jordan in April 2012 and later detected in Saudi Arabia in September 2012. The largest known outbreak of MERS outside the Arabian Peninsula occurred in the Republic of Korea in 2015. All cases have been linked through travel to, or residence in, countries in and near the Arabian Peninsula. COVID-19 epicentre was in Wuhan, Hubei Province, China. The first case was detected on 31st December
+    </string>
+
+    <string name="covid_symptoms">
+        Most cases are mild (with no or minimal symptoms). In some, the disease has shown a severe form of illness, including deaths. These include elderly, individuals with weak immune system (underlying chronic health conditions such as Diabetes, Heart ailments, lung ailments, cancer)
+        Symptoms of COVID-19 may appear 2-14 days after exposure.
+        The common symptoms are
+            - Fever
+            - Cough, can be dry or producing phlegm
+            - Sore throat
+            - Runny or stuffy nose, causing individual to mouth breathe.
+            - Fatigue can be severe.
+            - Shortness of breath, sudden in onset, rapidly progressing
+            - Diarrhoea
+            - Nausea or vomiting
+        Note: Not all symptoms may be seen in an individual suspected to be infected with COVID-19.
+        \n Emergency warning signs include but are not limited to:
+            - Breathlessness
+            - Persistent chest pain
+            - Bluish lips or face
+            - New onset confusion, drowsiness or any new onset change in mental status
+
+        If you notice any symptoms mentioned above, contact your nearest medical centre or doctor immediately for further guidance on medical care.
+        Severe illness can cause severe pneumonia, acute respiratory distress syndrome (ARDS), sepsis and septic shock that can lead to death
+    </string>
+
+</resources>

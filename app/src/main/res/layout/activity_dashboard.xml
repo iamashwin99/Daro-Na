@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="72dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/app_logo"
+        android:tint="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:id="@+id/bothered_user"
+        android:paddingVertical="6dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginVertical="18dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_marginHorizontal="12dp"
+            android:src="@drawable/bothering_you"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="#fff"
+            android:text="What's Bothering You?"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/happening_outside"
+        android:paddingVertical="6dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginVertical="18dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_marginHorizontal="12dp"
+            android:src="@drawable/outside_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="#fff"
+            android:text="What's Happening\nOutside?"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/activity_center"
+        android:paddingVertical="6dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginVertical="18dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_marginHorizontal="12dp"
+            android:src="@drawable/activities_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="#fff"
+            android:text="Activities Center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/corona_faq"
+        android:paddingVertical="6dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginVertical="18dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_marginHorizontal="12dp"
+            android:src="@drawable/faqs_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="#fff"
+            android:text="FAQs on COVID-19"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/psych_test"
+        android:paddingVertical="6dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginVertical="18dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_marginHorizontal="12dp"
+            android:src="@drawable/symptoms_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="#fff"
+            android:text="Check Your Symptoms"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

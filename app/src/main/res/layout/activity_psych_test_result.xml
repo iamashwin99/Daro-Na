@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PsychTestActivityResult"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginVertical="24dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:tint="@color/colorPrimary"
+            android:layout_marginRight="36dp"
+            android:src="@drawable/bothering_you"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:text="What's bothering you?"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_margin="24dp"
+        android:background="@color/colorPrimaryLight"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="12dp"
+            android:text="It can only get better!"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="12dp"
+            android:text="Fret not! everyone faces anxiety at some point in their life.\n\n
+You can consult these medical practitioners near you."
+            android:textSize="18sp"
+            android:textColor="#2c2c2c"/>
+
+        <LinearLayout
+            android:paddingVertical="6dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginVertical="12dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_marginHorizontal="12dp"
+                android:src="@drawable/contact_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColor="#fff"
+                android:text="Dr.Jonathan Saba"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:paddingVertical="6dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginVertical="12dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_marginHorizontal="12dp"
+                android:src="@drawable/contact_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColor="#fff"
+                android:text="Dr. K. Kuduva"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:paddingVertical="6dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginVertical="12dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_marginHorizontal="12dp"
+                android:src="@drawable/contact_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColor="#fff"
+                android:text="Dr. Sunanda"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="24dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Check out what you can do now!"
+        android:gravity="center"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/activities_link"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="24dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:src="@drawable/activities_logo"
+        android:padding="8dp"
+        />
+
+</LinearLayout>
